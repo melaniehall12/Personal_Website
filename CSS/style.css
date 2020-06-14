@@ -1,16 +1,21 @@
 /*Tag Selectors*/
 body {
-    background-color: #aacfcf;
+    background-color: #f4f4f4;
 }
 
 /*Class Selectors*/
 .title-container {
-    text-align: center;
+    color: #8ec6c5;
     font-family: 'Typola';
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
 }
 
 /*Id Selectors*/
-#title-name{
+#title-name {
+    /*"I'm Melanie" text.*/
+    color: #6983aa;
     font-family: 'Aussie';
     font-size: 80px;
 }
@@ -26,4 +31,3 @@ body {
     font-family: Typola;
     src: url('Fonts/TRUE\ TYPOLA.ttf');
 }
-
