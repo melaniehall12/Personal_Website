@@ -1,4 +1,29 @@
-/***************************TAG SELECTORS************************/
+/*Tag Selectors*/
 body {
     background-color: #aacfcf;
 }
+
+/*Class Selectors*/
+.title-container {
+    text-align: center;
+    font-family: 'Typola';
+}
+
+/*Id Selectors*/
+#title-name{
+    font-family: 'Aussie';
+    font-size: 80px;
+}
+
+
+/*Fonts*/
+@font-face {
+    font-family: Aussie;
+    src: url('Fonts/Australia\ Script.ttf');
+}
+
+@font-face {
+    font-family: Typola;
+    src: url('Fonts/TRUE\ TYPOLA.ttf');
+}
+
