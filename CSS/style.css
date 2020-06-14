@@ -1,6 +1,7 @@
 /*Tag Selectors*/
 body {
     background-color: #f4f4f4;
+    margin: 0;
 }
 
 /*Class Selectors*/
@@ -10,15 +11,69 @@ body {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
+    margin-top: 100px;
+}
+
+.title-margin {
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.about-container {
+    color: #8566aa;
+    font-family: Typola;
+    font-size: 20px;
+    border-style: dotted;
+    border-color: #8ec6c5;
+    position: absolute;
+    left: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    height: 500px;
+    width: 300px;
+}
+
+.contact-container {
+    color: #8566aa;
+    font-family: Typola;
+    font-size: 20px;
+    border-style: dotted;
+    border-color: #8ec6c5;
+    position: absolute;
+    right: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    height: 500px;
+    width: 300px;
+}
+
+.projects-container {
+    color: #8566aa;
+    font-family: Typola;
+    font-size: 20px;
+    border-style: dotted;
+    border-color: #8ec6c5;
+    position: absolute;
+    right: 485px;
+    margin-bottom: 50px;
+    text-align: center;
+    height: 500px;
+    width: 300px;
 }
 
 /*Id Selectors*/
 #title-name {
     /*"I'm Melanie" text.*/
     color: #6983aa;
+    margin-top: 0;
     font-family: 'Aussie';
     font-size: 80px;
 }
+
+/* #subcats-hover:hover {
+    height: 700px;
+    width: 500px;
+} */
 
 
 /*Fonts*/
