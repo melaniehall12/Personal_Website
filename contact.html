@@ -13,17 +13,16 @@
     <h3>Contact Information:</h3>
     <p>Mobile: N/A</p>
     <p>Email: t.melanie.l.hall@gmail.com</p>
-
-    <form action="">
+    <hr>
+    <form action="mailto:t.melanie.l.hall@gmail.com" method="post" enctype="text/plain">
         <label for="Name Input">Name:</label>
-        <input type="text">
-        <br>
-        <label for="">Password:</label>
-        <input type="password">
-        <br>
+        <input type="text" name="Name"><br>
+        <label for="Email Input">Email:</label>
+        <input type="email" name="Email"><br>
+        <label for="Message Text">Message:</label><br>
+        <textarea name="Message" rows="10" cols="30"></textarea><br>
         <label for="">Would you like to join the email list?</label>
-        <input type="checkbox">
-        <br>
+        <input type="checkbox"><br>
         <input type="submit">
     </form>
 </body>
