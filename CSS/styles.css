@@ -26,6 +26,11 @@ hr {
     color: #679b9b;
 }
 
+.link:hover {
+    color: #3b6978;
+    font-size: 20px;
+}
+
 /***************************ID SELECTORS************************/
 @font-face {
     font-family: 'Rolanstine';
