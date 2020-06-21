@@ -17,6 +17,7 @@ body {
 }
 
 .nav-bar-text-about {
+    text-decoration: none;
     font-family: Typola;
     color: black;
     font-size: 25px;
@@ -27,6 +28,7 @@ body {
 }
 
 .nav-bar-text-projects {
+    text-decoration: none;
     font-family: Typola;
     color: black;
     font-size: 25px;
@@ -34,6 +36,26 @@ body {
     position: absolute;
     right: 150px;
     margin: 15px auto;
+}
+
+.nav-bar-text-the-now {
+    text-decoration: none;
+    font-family: Typola;
+    color: black;
+    font-size: 25px;
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    margin: 15px auto;
+}
+
+.nav-bar-text a:hover {
+    color: white;
+}
+
+.nav-bar-text a.active {
+    color: #8ec6c5;
+    opacity: 3.0;
 }
 
 .title-container {
@@ -50,12 +72,18 @@ body {
     margin-top: 10px;
 }
 
+hr.shadeEffect {
+    height: 10px;
+    border: 0;
+    box-shadow: 0 10px 10px -10px #8ec6c5 inset;
+}
+
 .intro-container {
     text-align: center;
     font-family: Typola;
     font-size: 20px;
     width: 100%;
-    height: 400px;  
+    height: 400px;
 }
 
 .intro-container-about {
@@ -65,14 +93,6 @@ body {
     position: absolute;
     left: 400px;
     margin-top: 0;
-}
-
-#intro-heading {
-    font-family: Aussie; 
-    font-size: 60px;
-    color: #8566aa;
-    margin-top: 0;
-    margin-bottom: 0;
 }
 
 .avatar-pic {
@@ -87,7 +107,7 @@ body {
     margin-top: 200px;
     margin-bottom: 50px;
     text-align: center;
-    height: 400px;
+    height: 500px;
     width: 100%;
 }
 
@@ -98,54 +118,65 @@ body {
     line-height: 1.5;
     position: absolute;
     left: 400px;
-    margin-top: 15px;
+    margin-top: 10px;
+    margin-bottom: 200px;
 }
 
-#skills-heading {
-   font-family: Aussie;
-   font-size: 60px;
-   color: #8566aa;
-   margin-top: 0;
-   margin-bottom: 0;
+.icon-container {
+    margin-top: 90px;
 }
 
 .icon-size {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
     height: 100px;
     width: 100px;
 }
 
-hr.shadeEffect {
-    height: 10px;
-    border: 0;
-    box-shadow: 0 10px 10px -10px #8ec6c5 inset;
-}
-
 .contact-container {
-    color: #8566aa;
     font-family: Typola;
     font-size: 20px;
-    border-style: dotted;
-    border-color: #8ec6c5;
-    position: absolute;
-    right: 100px;
-    margin-bottom: 50px;
     text-align: center;
     height: 500px;
-    width: 300px;
+    width: 100%;
+    position: absolute;
+    margin-top: 10px;
+    margin-bottom: 50px;
+
 }
 
-.projects-container {
-    color: #8566aa;
-    font-family: Typola;
-    font-size: 20px;
-    border-style: dotted;
-    border-color: #8ec6c5;
+.contact-container-about {
+    color: black;
+    line-height: 1.5;
     position: absolute;
-    right: 485px;
-    margin-bottom: 50px;
+    width: 500px;
+    height: 300px;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+
+.footer {
+    position: relative;
+    background-color: #8566aa;
+    opacity: 0.7;
     text-align: center;
-    height: 500px;
-    width: 300px;
+    font-family: Typola;
+    color: black;
+    height: 50px;
+    width: 100%;
+    top: 600px;
+    bottom: 0;
+    padding-top: 10px;
+}
+
+.footer-icons {
+    height: 30px;
+    width: 30px;
+    float: left;
+    left: 20px;
+    margin-left: 15px;
+    margin-top: 5px;
 }
 
 /*Id Selectors*/
@@ -155,6 +186,34 @@ hr.shadeEffect {
     margin-top: 0;
     font-family: Aussie;
     font-size: 80px;
+}
+
+#skills-heading {
+    font-family: Aussie;
+    font-size: 60px;
+    color: #8566aa;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#intro-heading {
+    font-family: Aussie;
+    font-size: 60px;
+    color: #8566aa;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#contact-heading {
+    font-family: Aussie;
+    font-size: 60px;
+    color: #8566aa;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#footer-heading {
+    margin-right: 85px;
 }
 
 /*Fonts*/
@@ -208,7 +267,7 @@ hr.shadeEffect {
     border: 10px;
     border-style: solid; */
     position: absolute;
-    
+
 }
 
 /* .wavyText {
