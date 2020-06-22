@@ -55,7 +55,6 @@ body {
 
 .nav-bar-text a.active {
     color: #8ec6c5;
-    opacity: 3.0;
 }
 
 .title-container {
@@ -72,12 +71,6 @@ body {
     margin-top: 10px;
 }
 
-hr.shadeEffect {
-    height: 10px;
-    border: 0;
-    box-shadow: 0 10px 10px -10px #8ec6c5 inset;
-}
-
 .intro-container {
     text-align: center;
     font-family: Typola;
@@ -88,7 +81,7 @@ hr.shadeEffect {
 
 .intro-container-about {
     width: 500px;
-    height: 300px;
+    height: 100px;
     line-height: 1.5;
     position: absolute;
     left: 400px;
@@ -114,7 +107,7 @@ hr.shadeEffect {
 .skills-container-about {
     color: black;
     width: 500px;
-    height: 300px;
+    height: 100px;
     line-height: 1.5;
     position: absolute;
     left: 400px;
@@ -151,7 +144,7 @@ hr.shadeEffect {
     line-height: 1.5;
     position: absolute;
     width: 500px;
-    height: 300px;
+    height: 100px;
     margin-left: 400px;
     margin-top: 20px;
 }
@@ -182,29 +175,14 @@ hr.shadeEffect {
 /*Id Selectors*/
 #title-name {
     /*"I'm Melanie" text.*/
+    text-align: center;
     color: #6983aa;
     margin-top: 0;
     font-family: Aussie;
     font-size: 80px;
 }
 
-#skills-heading {
-    font-family: Aussie;
-    font-size: 60px;
-    color: #8566aa;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-#intro-heading {
-    font-family: Aussie;
-    font-size: 60px;
-    color: #8566aa;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-#contact-heading {
+#sub-heading {
     font-family: Aussie;
     font-size: 60px;
     color: #8566aa;
