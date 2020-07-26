@@ -4,6 +4,33 @@ body {
     margin: 0;
 }
 
+h2 {
+    /* Sub-headings */
+    font-family: Aussie;
+    font-size: 60px;
+    color: #8566aa;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h3 { /* Projects Headings */
+    font-family: Typola;
+    text-align: center;
+    font-size: 2.5rem;
+    color: #8ec6c5;
+    margin-bottom: 5px;
+}
+
+hr { /* Break Lines for Project Page */
+    border: none;
+    border-top: 8px dotted;
+    color: #8566aa;
+    height: 1px;
+    width: 5%;
+    margin-top: 190px;
+    margin-bottom: 100px;
+}
+
 /*Class Selectors*/
 .nav-bar-container {
     overflow: scroll;
@@ -38,7 +65,7 @@ body {
     margin: 15px auto;
 }
 
-.nav-bar-text-the-now {
+.nav-bar-text-resume {
     text-decoration: none;
     font-family: Typola;
     color: black;
@@ -131,12 +158,10 @@ body {
     font-family: Typola;
     font-size: 20px;
     text-align: center;
-    height: 500px;
+    height: 100px;
     width: 100%;
     position: absolute;
     margin-top: 10px;
-    margin-bottom: 50px;
-
 }
 
 .contact-container-about {
@@ -158,7 +183,7 @@ body {
     color: black;
     height: 50px;
     width: 100%;
-    top: 600px;
+    top: 400px;
     bottom: 0;
     padding-top: 10px;
 }
@@ -172,6 +197,54 @@ body {
     margin-top: 5px;
 }
 
+.projects-intro-container {
+    position: absolute;
+    font-family: Typola;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    line-height: 1.5;
+    width: 50%;
+    height: 100px;
+    left: 25%;
+}
+
+.projects-about-container {
+    font-family: Typola;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    line-height: 1.5;
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    
+    margin-top: -30px;
+}
+
+.video-game-trailer-container {
+    display: flex;
+    justify-content: center;
+    position: aboslute;
+}
+
+.video-game-trailer-specs {
+    width: 660px;
+    height: 415px;
+}
+
+.resume-container {
+    position: relative;
+    margin-bottom: -200px;
+}
+
+.resume-view {
+    margin-top: 30px;
+    margin-left: 250px;
+    height: 1050px;
+    width: 800px;
+}
+
 /*Id Selectors*/
 #title-name {
     /*"I'm Melanie" text.*/
@@ -180,14 +253,6 @@ body {
     margin-top: 0;
     font-family: Aussie;
     font-size: 80px;
-}
-
-#sub-heading {
-    font-family: Aussie;
-    font-size: 60px;
-    color: #8566aa;
-    margin-top: 0;
-    margin-bottom: 0;
 }
 
 #footer-heading {
@@ -218,8 +283,6 @@ body {
 #testing-2 {
     font-weight: normal;
 }
-
-
 
 /*Fonts*/
 @font-face {
@@ -274,11 +337,6 @@ body {
     position: absolute;
 
 }
-
-/* .wavyText {
-    text-decoration-line: underline;
-    text-decoration-style: wavy;
-} */
 
 .bottom-cloud {
     position: absolute;
