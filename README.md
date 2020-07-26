@@ -1,2 +1,2 @@
 # Personal_Website
-Development for a personal website for professional use.
+Development of my personal website for professional use.
