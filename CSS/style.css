@@ -160,7 +160,7 @@ h3 { /* Projects Headings */
     line-height: 1.5;
     margin: 0 auto;
     width: 50%;
-    height: 100px;  
+    height: 6.25rem;  
 }
 
 .icon-container {
@@ -190,7 +190,7 @@ h3 { /* Projects Headings */
     line-height: 1.5;
     margin: 0 auto;
     width: 50%;
-    height: 100px;
+    height: 6.25rem;
 }
 
 .footer {
@@ -251,7 +251,8 @@ h3 { /* Projects Headings */
 
 .resume-container {
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
+    width: 100%
 }
 
 .resume-view {
@@ -259,8 +260,8 @@ h3 { /* Projects Headings */
     justify-content: center;
     flex-wrap: wrap;
     margin: 0 auto;
-    height: 1050px;
-    width: 60%;
+    height: 65.625rem;
+    width: 70%;
 }
 
 /*Id Selectors*/
