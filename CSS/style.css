@@ -22,7 +22,7 @@ h3 { /* Projects Headings */
     margin-bottom: 5px;
 }
 
-hr { /* Break Lines for Project Page */
+.hr-projects-page { /* Break Lines for Project Page */
     border: none;
     border-top: 8px dotted;
     color: #8566aa;
@@ -30,6 +30,16 @@ hr { /* Break Lines for Project Page */
     width: 5%;
     margin-top: 190px;
     margin-bottom: 100px;
+}
+
+.hr-about-page { /*Break Lines for About Page */
+    border: none;
+    border-top: 8px dotted;
+    color: #8ec6c5;
+    height: 1px;
+    width: 5%;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 /*Class Selectors*/
@@ -42,6 +52,16 @@ hr { /* Break Lines for Project Page */
     position: fixed;
     top: 0;
     z-index: 9999;
+}
+
+.nav-bar-avatar {
+    height: 40px;
+    width: 40px;
+    float: left;
+    left: 20px;
+    margin-left: 15px;
+    margin-top: 5px;
+    border-radius: 50%;
 }
 
 .nav-bar-text-about {
@@ -100,6 +120,7 @@ hr { /* Break Lines for Project Page */
 }
 
 .intro-container {
+    margin-bottom: 180px;
     text-align: center;
     font-family: Typola;
     font-size: 20px;
@@ -114,18 +135,19 @@ hr { /* Break Lines for Project Page */
     position: absolute;
     left: 400px;
     margin-top: 0;
+    margin-bottom: 200px;
 }
 
 .avatar-pic {
-    height: 170px;
-    width: 160px;
+    height: 165px;
+    width: 130px;
     margin-top: 100px;
 }
 
 .skills-container {
     font-family: Typola;
     font-size: 20px;
-    margin-top: 200px;
+    margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
     height: 500px;
