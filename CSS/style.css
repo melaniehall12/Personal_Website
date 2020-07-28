@@ -129,11 +129,12 @@ h3 { /* Projects Headings */
 }
 
 .intro-container-about {
-    width: 500px;
+    width: 50%;
     height: 100px;
     line-height: 1.5;
-    position: absolute;
-    left: 400px;
+    /* position: absolute; */
+    margin: 0 auto;
+    /* left: 400px; */
     margin-top: 0;
     margin-bottom: 200px;
 }
