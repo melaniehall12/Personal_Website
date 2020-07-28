@@ -129,6 +129,9 @@ h3 { /* Projects Headings */
 }
 
 .intro-container-about {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     width: 50%;
     height: 100px;
     line-height: 1.5;
