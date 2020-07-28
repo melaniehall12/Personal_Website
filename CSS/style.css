@@ -33,6 +33,7 @@ h3 { /* Projects Headings */
 }
 
 .hr-about-page { /*Break Lines for About Page */
+    display: block;
     border: none;
     border-top: 8px dotted;
     color: #8ec6c5;
@@ -120,6 +121,7 @@ h3 { /* Projects Headings */
 }
 
 .intro-container {
+    display: block;
     text-align: center;
     font-family: Typola;
     font-size: 1.25rem;
@@ -145,6 +147,7 @@ h3 { /* Projects Headings */
 }
 
 .skills-container {
+    display: block;
     font-family: Typola;
     font-size: 1.25rem;
     text-align: center;
@@ -176,6 +179,7 @@ h3 { /* Projects Headings */
 }
 
 .contact-container {
+    display: block;
     font-family: Typola;
     font-size: 20px;
     text-align: center;
