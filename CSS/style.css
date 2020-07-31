@@ -22,6 +22,16 @@ h3 { /* Projects Headings */
     margin-bottom: 5px;
 }
 
+.hr-title {
+    border: none;
+    border-top: 8px dotted;
+    color: #8566aa;
+    height: 1px;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
 .hr-projects-page { /* Break Lines for Project Page */
     border: none;
     border-top: 8px dotted;
@@ -144,7 +154,7 @@ h3 { /* Projects Headings */
 
 .icon-container {
     margin: 0 auto;
-    width: 90%;
+    width: 80%;
 }
 
 .icon-size {
