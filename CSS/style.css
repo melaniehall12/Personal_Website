@@ -65,42 +65,20 @@ h3 { /* Projects Headings */
     border-radius: 50%;
 }
 
-.nav-bar-text-about {
+.nav-bar-text-links {
     text-decoration: none;
     font-family: Typola;
     color: black;
     font-size: 25px;
     float: right;
-    padding: 1.25rem;
-}
-
-.nav-bar-text-projects {
-    text-decoration: none;
-    font-family: Typola;
-    color: black;
-    font-size: 25px;
-    display: inline-block;
-    position: absolute;
-    right: 150px;
-    margin: 15px auto;
-}
-
-.nav-bar-text-resume {
-    text-decoration: none;
-    font-family: Typola;
-    color: black;
-    font-size: 25px;
-    display: inline-block;
-    position: absolute;
-    right: 20px;
-    margin: 15px auto;
+    margin: 13px 15px 13px;
 }
 
 .nav-bar-text a:hover {
     color: white;
 }
 
-.nav-bar-text a.active {
+.nav-bar-text a.active { 
     color: #8ec6c5;
 }
 
@@ -229,6 +207,42 @@ h3 { /* Projects Headings */
     margin-bottom: 3.125rem;
 }
 
+.projects-pictures {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.projects-pictures-specs {
+    border-radius: 12px;
+    height: 15.625em;
+    width: 18.75em;
+    margin-left: 12px;
+    margin-top: 20px;
+    transition: transform .2s;
+}
+
+.projects-pictures-specs-two {
+    border-radius: 12px;
+    height: 25em;
+    width: 18.75em;
+    margin-left: 12px;
+    margin-top: 20px;
+    transition: transform .2s;
+}
+
+.projects-pictures-specs:hover {
+    -ms-transform: scale(2.0);
+    -webkit-transform: scale(2.0);
+    transform: scale (2.0);
+}
+
+.projects-pictures-specs-two:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale (1.5);
+}
+
 .video-container {
     display: flex;
     justify-content: center;
@@ -240,22 +254,24 @@ h3 { /* Projects Headings */
     height: 415px;
 }
 
-.view-button {
+.view-project-button {
     display: flex;
     justify-content: center;
     text-align: center;
     border: none;
+    font-family: Typola;
+    text-decoration: none;
     border-radius: 12px;
     font-size: 22px;
-    background: #6983aa;
-    margin: 20px auto;
+    background: black;
+    color: white;
+    margin: 25px auto;
     padding: 15px 10px;
     width: 200px;
 }
 
 .btn-text a:hover {
-    /* color: #8ec6c5; */
-    color:blue;
+    color: #8ec6c5;
 }
 
 .resume-container {
@@ -301,10 +317,6 @@ h3 { /* Projects Headings */
     font-family: Typola;
     font-size: 0.9375rem;
     text-align: center;
-}
-
-#no-decor{
-    text-decoration: none;
 }
 
 #footer-heading {
